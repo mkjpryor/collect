@@ -1,0 +1,30 @@
+{
+    "name" : "mkjpryor/collect",
+    "type" : "library",
+    "description" : "Collection utilities for Hack",
+    "homepage" : "https://bitbucket.org/mkjpryor/collect",
+    "authors" : [
+        {
+            "name" : "Matt Pryor",
+            "email" : "matt@pryor.org.uk",
+            "role" : "Developer"
+        }
+    ],
+    "license" : "MIT",
+    
+    "require" : {
+        "hhvm" : ">= 2.4",
+        "mkjpryor/option" : "dev-master"
+    },
+
+    "require-dev" : {
+        "phpunit/phpunit" : "4.2.*",
+        "pear/console_table" : "1.2.0"
+    },
+
+    "autoload" : {
+        "psr-4" : {
+            "Mkjp\\Collect\\" : "src"
+        }
+    }
+}

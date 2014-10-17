@@ -1,0 +1,18 @@
+# Hack type checker
+.hhconfig
+
+# Zed editor
+.zedstate
+
+# Composer
+composer.lock
+composer.phar
+vendor/
+
+# Vagrant VM
+Vagrantfile
+.vagrant
+
+# Test files
+index.php
+main.php
